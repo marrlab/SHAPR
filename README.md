@@ -81,10 +81,10 @@ The setting parameters are read from the `settings` object. You may change the s
 ```console
 > from shapeae import settings
 > settings.path = "a/new/path"
-
+```
 We have added an example of a config.json file to shapeae/docs/sample/sample_config_params.json. If you want to use it, please adapt the paths to your project and copy the sample_config_params.json to /shapeae/, then execute the /shapeae/run_train_script.py 
 You can also print all the parameters and their values using `print()` function:
-```
+
 > print(settings)
 ------ settings parameters ------
 path: "path value"
