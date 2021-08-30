@@ -14,7 +14,7 @@ setup(
     keywords='Computational Biology Deep Learning',
     packages=find_packages(exclude=['doc*', 'test*']),
     url='https://github.com/marrlab/ShapeAE',
-    install_requires=['keras>=2.2.4'],
+    install_requires=['keras>=2.2.4', 'imageio', 'scikit-image', 'scikit-learn'],
     classifiers=[
 	'Development Status :: 3 - Alpha',
 	'Topic :: Scientific/Engineering :: Image Recognition',
