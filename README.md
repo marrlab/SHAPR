@@ -21,7 +21,7 @@ ShapeAE enables the prediction of 3D single cell shapes from 2D microscopic imag
 Fork the repository.
 
 ```console
-$ cd shapeae
+$ cd ShapeAE
 $ pip3 install -e .
 ```
 
@@ -31,7 +31,7 @@ We would recommend to first set a virtual environment and then install the packa
 ```console
 $ cd shapeae
 $ python3 -m venv .venv_shape
-(.venv_shape) $ source .venv_shape/bin/activate
+$ source .venv_shape/bin/activate
 (.venv_shape) $ pip3 install -e .
 ```
 By activating the virtual environment your shell’s prompt will be changed in order to show what virtual environment you’re using.
