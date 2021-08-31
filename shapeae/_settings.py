@@ -23,7 +23,7 @@ class FrozenClass():
     For child classes. It prevent to add new attributes to the setting from outside
     and prevents giving mistaken arguments to the setting.
     '''
-    __is_frozen = False 
+    __is_frozen = False
     def __setattr__(self, key, value):
         if self.__is_frozen and not hasattr(self, key):
             raise AttributeError(f"'{key}' is not among the attributes of targeted object. It is an instance of a frozen class.")
@@ -73,7 +73,9 @@ class ShapeAEConfig(FrozenClass):
 
         # setting initial values.
         self.set_attributes_with_keys(self.__config_param_default)
-
+        
+        if os.path.isfile(os.path.join(os.path.dirname(__file__), 'params.json')):
+            self.read_json(os.path.join(os.path.dirname(__file__), 'params.json'))
 
     def __str__(self):
         s = "------ settings parameters ------\n"
@@ -88,4 +90,5 @@ class ShapeAEConfig(FrozenClass):
         self.set_attributes_with_keys(_initial_values)
 
 settings = ShapeAEConfig()
+
 
