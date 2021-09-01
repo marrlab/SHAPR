@@ -29,7 +29,7 @@ $ pip3 install -e .
 We would recommend to first set a virtual environment and then install the package:
 
 ```console
-$ cd shapeae
+$ cd ShapeAE
 $ python3 -m venv .venv_shape
 $ source .venv_shape/bin/activate
 (.venv_shape) $ pip3 install -e .
@@ -62,10 +62,10 @@ pip install shapeae
 ```
 
 ## Running ShapeAE:
-Please find an example of how ShapeAE can be run in the /shapeae/docs/jupyter notebook/Run ShapeAE from notebook.ipynb
+Please find an example of how ShapeAE can be run in the /ShapeAE/docs/jupyter notebook/Run ShapeAE from notebook.ipynb
 
 
-We have also added example data in /shapeae/docs/sample, which can be used to run ShapeAE
+We have also added example data in /ShapeAE/docs/sample, which can be used to run ShapeAE
 # Setting parameters
 To run ShapeAE you should set the following parameters:
 Setting parameters are:
@@ -77,12 +77,12 @@ Setting parameters are:
 - `pretrained_weights_path`: path to a folder for saving and reloading pretrain model 
 - `random_seed`: seed for random generator in order to keep the results reproducible.
 
-The setting parameters are read from the `settings` object. You may change the setting parameters by directly changing their default values in a `shapeae/config_params.json` file or simply package API like:
+The setting parameters are read from the `settings` object. You may change the setting parameters by directly changing their default values in a /ShapeAE/`shapeae/params.json` file or simply package API like:
 ```console
 > from shapeae import settings
 > settings.path = "a/new/path"
 ```
-We have added an example of a 'params.json' file to shapeae/docs/sample/sample_config_params.json. If you want to use it, please adapt the paths to your project and copy the 'params.json' to '/shapeae/params.json', then execute the /shapeae/run_train_script.py 
+We have added an example of a 'params.json' file to ShapeAE/docs/sample/params.json. If you want to use it, please adapt the paths to your project and copy the 'params.json' to /ShapeAE/shapeae/params.json, then execute the /ShapeAE/shapeae/run_train_script.py 
 You can also print all the parameters and their values using `print()` function:
 
 > print(settings)
