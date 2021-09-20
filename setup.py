@@ -6,7 +6,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = 'shapeae',
+    name = 'shapr',
     version='0.0.1',
     author='Dominik Waibel, Niklas Kiermeyer, Mohammad Mirkazemi',
     author_email='dominik.waibel@helmholtz-muenchen.de',
