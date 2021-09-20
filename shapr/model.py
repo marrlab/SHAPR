@@ -134,7 +134,7 @@ def model(params):
     return SHAPRmodel, discriminator
 
 
-def define_adverserial(ShapeAEmodel, discriminator):
+def define_adverserial(SHAPRmodel, discriminator):
     # make weights in the discriminator not trainable
     discriminator.trainable = False
     input_image = Input(shape=(1, 64, 64, 2))
