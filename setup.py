@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name = 'shapr',
-    version='0.0.1',
+    version='0.0.2',
     author='Dominik Waibel, Niklas Kiermeyer, Mohammad Mirkazemi',
     author_email='dominik.waibel@helmholtz-muenchen.de',
     license='MIT',
