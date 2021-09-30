@@ -85,7 +85,7 @@ For running the code, you need to have Python 3.6 or higher installed. In additi
 
 Please find an example of how to run SHAPR from a jupyter notebook in  /SHAPR/docs/jupyter notebook/Run SHAPR from notebook.ipynb
 
-You can also run SHAPR using a params.json file, which is provided in SHAPR/dosc/sample/params.json.
+You can also run SHAPR using a params.json file, which is provided in SHAPR/docs/sample/params.json.
 
 # Setting parameters
 To run SHAPR you should set the following parameters:
@@ -103,7 +103,7 @@ The setting parameters are read from the `settings` object. You may change the s
 > from shapr import settings
 > settings.path = "a/new/path"
 ```
-We have added an example of a 'params.json' file to SHAPR/docs/sample/params.json. If you want to use it, please adapt the paths to your project and copy the 'params.json' to /SHAPR/shapr/params.json, then execute the /SHAPR/shapr/run_train_script.py 
+We have added an example of a 'params.json' file to SHAPR/docs/sample/params.json. If you want to use it, please adapt the paths to your project and copy the 'params.json' to /SHAPR/params.json, then execute the /SHAPR/shapr/run_train_script.py
 You can also print all the parameters and their values using `print()` function:
 
 > print(settings)
