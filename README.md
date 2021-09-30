@@ -98,7 +98,7 @@ Setting parameters are:
 - `pretrained_weights_path`: path to a folder for saving and reloading pretrain model 
 - `random_seed`: seed for random generator in order to keep the results reproducible.
 
-The setting parameters are read from the `settings` object. You may change the setting parameters by directly changing their default values in a /SHAPR/`shapr/params.json` file or simply package API like:
+The setting parameters are read from the `settings` object. You may change the setting parameters by directly changing their default values in a '/SHAPR/params.json` file or simply package API like:
 ```console
 > from shapr import settings
 > settings.path = "a/new/path"
