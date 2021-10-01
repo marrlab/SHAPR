@@ -7,7 +7,7 @@ We here show that deep learning can be used to predict the 3D shape of single ce
 SHAPR is available as an easily installable, well documented python package. Its application allows dramatically increasing throughput for the characterization of cellular and subcellular structures in biomedical imaging data.
 
 please refer to our preprint on bioRxiv 
-[here](Link_to_paper.de)
+[here](https://www.biorxiv.org/content/10.1101/2021.09.29.462353v1)
 
 
 <p align="center">
@@ -162,5 +162,5 @@ We are happy about any contributions. For any suggested changes, please send a p
 
 ## Citation
 
-If you use SHAPR, please cite this paper: Link will be inserted soon.
+If you use SHAPR, please cite this paper: https://www.biorxiv.org/content/10.1101/2021.09.29.462353v1
 
