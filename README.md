@@ -162,5 +162,15 @@ We are happy about any contributions. For any suggested changes, please send a p
 
 ## Citation
 
-If you use SHAPR, please cite this paper: https://www.biorxiv.org/content/10.1101/2021.09.29.462353v1
+If you use SHAPR, please cite this paper: https://www.cell.com/iscience/fulltext/S2589-0042(22)01570-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS258900422201570X%3Fshowall%3Dtrue
 
+
+
+@article{waibel2022shapr,
+  title={SHAPR predicts 3D cell shapes from 2D microscopic images},
+  author={Waibel, Dominik JE and Kiermeyer, Niklas and Atwell, Scott and Sadafi, Ario and Meier, Matthias and Marr, Carsten},
+  journal={Iscience},
+  pages={105298},
+  year={2022},
+  publisher={Elsevier}
+}
