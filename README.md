@@ -1,4 +1,19 @@
 # SHAPR
+
+## Citation
+```
+@article{waibel2022shapr,
+  title={SHAPR predicts 3D cell shapes from 2D microscopic images},
+  author={Waibel, Dominik JE and Kiermeyer, Niklas and Atwell, Scott and Sadafi, Ario and Meier, Matthias and Marr, Carsten},
+  journal={Iscience},
+  volume={25},
+  number={11},
+  pages={105298},
+  year={2022},
+  publisher={Elsevier}
+}
+```
+
 <p align="center">
 <img src="shapr_logo.png"  width="200" />
 </p>
@@ -6,8 +21,8 @@ Reconstructing the shapes of three dimensional (3D) objects from two dimensional
 We here show that deep learning can be used to predict the 3D shape of single cells and single nuclei from 2D images and thereby reconstruct relevant morphological information. Our SHAPR autoencoder is trained with hundreds of 3D shapes and corresponding 2D sections of red blood cells and differentiated induced pluripotent stem cells, and fine tuned with an adversarial network inspired discriminator. We demonstrate the power of our approach by showing that the 3D shapes of red blood cells can be reconstructed more realistically than with simpler 3D models. Moreover, the features extracted from the predicted 3D shapes lead to a higher classification accuracy for six red blood cell types than the features of the 2D image alone. Applied to human induced pluripotent stem cells growing in a 3D culture, we demonstrate that SHAPR is able to robustly reconstruct the shape of single nuclei from a 2D slice, mimicking a single imaging step. Our work demonstrates that neural networks can learn to reconstruct the 3D shape of single cells and nuclei from 2D images.
 SHAPR is available as an easily installable, well documented python package. Its application allows dramatically increasing throughput for the characterization of cellular and subcellular structures in biomedical imaging data.
 
-please refer to our preprint on bioRxiv 
-[here](https://www.biorxiv.org/content/10.1101/2021.09.29.462353v1)
+please refer to our publication: 
+[here](https://www.sciencedirect.com/science/article/pii/S258900422201570X)
 
 
 <p align="center">
@@ -162,18 +177,3 @@ path
 ## Contributing
 
 We are happy about any contributions. For any suggested changes, please send a pull request to the *develop* branch.
-
-## Citation
-
-If you use SHAPR, please cite this paper: https://www.cell.com/iscience/fulltext/S2589-0042(22)01570-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS258900422201570X%3Fshowall%3Dtrue
-
-
-
-@article{waibel2022shapr,
-  title={SHAPR predicts 3D cell shapes from 2D microscopic images},
-  author={Waibel, Dominik JE and Kiermeyer, Niklas and Atwell, Scott and Sadafi, Ario and Meier, Matthias and Marr, Carsten},
-  journal={Iscience},
-  pages={105298},
-  year={2022},
-  publisher={Elsevier}
-}
