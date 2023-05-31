@@ -1,19 +1,5 @@
 # SHAPR
 
-## Citation
-```
-@article{waibel2022shapr,
-  title={SHAPR predicts 3D cell shapes from 2D microscopic images},
-  author={Waibel, Dominik JE and Kiermeyer, Niklas and Atwell, Scott and Sadafi, Ario and Meier, Matthias and Marr, Carsten},
-  journal={Iscience},
-  volume={25},
-  number={11},
-  pages={105298},
-  year={2022},
-  publisher={Elsevier}
-}
-```
-
 <p align="center">
 <img src="shapr_logo.png"  width="200" />
 </p>
@@ -30,6 +16,20 @@ please refer to our publication:
 </p>
 a, SHAPR consists of a 2D encoder, which embeds 2D images into a 128-dimensional latent space, and a 3D decoder, which reconstructs 3D shapes from the latent space representation. To train SHAPR we segment 3D microscopy images (we show an exemplary single red blood cell). We pair a 2D segmentation with the microscopy image of the same slice to enter the encoder as input. During supervised training (Fig. 1, step 1), we minimize the reconstruction loss (see Methods), which is the sum of the Dice loss and the binary cross entropy loss between the 3D segmentations y and SHAPR predictions p. For an input image of 64 x 64 pixels, we provide the pixel sizes for each layer in the gray boxes and the filter sizes on top of each box. b, In the second step, we fine-tune SHAPR by adding a discriminator. The discriminator is trained to differentiate between SHAPR output p ground truth segmentation r and minimize the adversarial loss. It thereby challenges SHAPR to output realistic 3D objects.
 
+
+## Citation
+```
+@article{waibel2022shapr,
+  title={SHAPR predicts 3D cell shapes from 2D microscopic images},
+  author={Waibel, Dominik JE and Kiermeyer, Niklas and Atwell, Scott and Sadafi, Ario and Meier, Matthias and Marr, Carsten},
+  journal={Iscience},
+  volume={25},
+  number={11},
+  pages={105298},
+  year={2022},
+  publisher={Elsevier}
+}
+```
 
 ## Installation:
 
