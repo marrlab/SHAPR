@@ -122,6 +122,9 @@ You can run the training and evaluating on the test sample by calling the `run_t
 > run_evaluation()
 ```
 
+## Dataset
+Please find the datasets used for this publication on Zenodo: https://doi.org/10.5281/zenodo.7031924
+
 ## Folder structure 
 SHAPR expects the data in the following folder structure (see sample). With corresponding files having the same name. 2D microscopy images (64x64px) should be contained in the images folder, 2D segmentations (64x64px) in the mask folder and the 3D segmentation (64x64x64px) in the obj folder. 
 ```bash
